@@ -12,7 +12,7 @@
     }
 
 /* ///////// */
-
+/* navbar section */
 #navbar > div{
     width:90%;
     justify-content: center;
@@ -118,5 +118,74 @@
     .border{
         border:none;
     }
-
+/* 
+    Body center top section */
+    .center-top-icon{
+        padding-top: 3%;
+    }
+    .center-top-icon i{
+        font-size: 5vw;
+    }
+    .center-top-icon p{
+        font-size: 4vw;
+    }
+/* 
+    Body center top section  */
+    #center-bot fieldset{
+        font-size: 3.8vw;
+    }
+    #center-bot-one{
+        justify-content: space-between;
+    }
+    #center-bot-one >div>div p{
+        font-size: 2.8vw;
+        margin: 0 5px;
+    }
+    #center-bot-one >div >div >div{
+        width:10%;
+        height: 100%;
+    }
+    #center-bot-one >div>div p{
+        font-size: 3.5vw;
+    }
+    #center-bot-one >i{
+        margin: 0;
+    }
+    .people-cap{
+        font-size: 2.2vw;
+    }
+    .people-cap >div:nth-child(2) p, h2,.people-cap >div:nth-child(2) p,.people-cap >div:nth-child(3) p{
+        padding: 0;
+    }
+    .people >div:nth-child(2){
+        font-size: 3vw;
+    }
+    .people >div:nth-child(2) p{
+        padding:15px 10px;
+    }
+    .people-time i{
+        padding-top: 0;
+    }
+    #caption div{
+        font-size: 3.2vw;
+        margin-top: 0;
+    }
+    #center-bot-four > div:nth-child(1) >div >i:nth-child(1){
+        font-size: 3.5vw;
+    }
+    #center-bot-four > div:nth-child(1) >div >i:nth-child(2){
+        font-size: 3.5vw;
+    }
+    #center-bot-four > div:nth-child(1) >div >i:nth-child(3){
+        font-size: 3.5vw;
+    }
+    #center-bot-four > div:nth-child(1) >div:nth-child(2){
+        font-size: 2.5vw;
+    }
+    #center-bot-four > div:nth-child(2){
+        font-size: 2.5vw;
+    }
+    #center-bot-five >div{
+        font-size: 3.5vw;
+    }
 }
